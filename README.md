@@ -10,10 +10,37 @@
 
 
 
-** Best Practices **
+** Best Practices
 - File name and Component should be start with Uppercase.
 - If file return html elements then file name in .jsx otherwise for simple functions you can name with .js.
+**
+------------------------------------------------------------------------------------------------------------------------
+
+- To access variable in JSX use {} which is known as "Evaluated Expression".
+- Example :
+- import Name from './Name';
+
+function App() {
+  const name = "Rahul"
+
+  return (
+    <>
+    <Name/>
+    <h1>Hello {name}</h1>
+    <p>I am fine</p>
+    </>
+  )
+}
+
+export default App;
+---------------------------
 
 
-  
+
+
+
+
+
+
+
     
