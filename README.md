@@ -35,6 +35,10 @@ function App() {
 export default App;
 ---------------------------
 
+- HOOKS are reusable functions. and it allow to use React Features and to use state without writing class.
+- It is introduced in React 16.8.
+- However, you cannot use hooks directly in class components.
+---------------------------------------
 
 
 
