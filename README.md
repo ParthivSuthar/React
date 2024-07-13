@@ -39,7 +39,10 @@ export default App;
 - It is introduced in React 16.8.
 - However, you cannot use hooks directly in class components.
 ---------------------------------------
-
+1) useState() Hook
+- It is used to for changing state (data of component).
+- It give 2 things in array format.
+-  const [counter, setCounter] = useState(1); where counter is state (variable) and setCounter is function and 1 is default value of counter.
 
 
 
