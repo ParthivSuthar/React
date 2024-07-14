@@ -43,7 +43,8 @@ export default App;
 - It is used to for changing state (data of component).
 - It give 2 things in array format.
 -  const [counter, setCounter] = useState(1); where counter is state (variable) and setCounter is function and 1 is default value of counter.
-
+--------------------------------------
+- Behind the scene, createRoot() method create DOM like structure, it compare with real DOM , and only update things that update in UI.
 
 
 
