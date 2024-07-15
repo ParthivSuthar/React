@@ -45,6 +45,7 @@ export default App;
 -  const [counter, setCounter] = useState(1); where counter is state (variable) and setCounter is function and 1 is default value of counter.
 --------------------------------------
 - Behind the scene, createRoot() method create DOM like structure, it compare with real DOM , and only update things that update in UI.
+- The Browser first remove whole DOM, it repaint(preparing web structure) whole DOM is called Page Reload.
 
 
 
